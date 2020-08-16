@@ -77,3 +77,4 @@ RUN export ETCD_VERSION=v3.2.24; \
   && cd /usr/local/src/etcd \
   && curl -fsSL https://github.com/coreos/etcd/releases/download/${ETCD_VERSION}/etcd-${ETCD_VERSION}-linux-amd64.tar.gz | tar -xz \
   && ln -s ../src/etcd/etcd-${ETCD_VERSION}-linux-amd64/etcd /usr/local/bin/
+
